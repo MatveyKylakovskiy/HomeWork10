@@ -1,19 +1,18 @@
 ﻿
-using System.Collections;
+using HomeWork10.ZeroTask;
 
-//Zero task
-
-/*try
+//Zero Task 1
+try
 {
-    ArrayList list = new ArrayList();
-    object s = list[18];
+    ZeroTask.PointOne();
 }
-catch(System.ArgumentOutOfRangeException ex)
+catch (ArgumentOutOfRangeException ex)
 {
     Console.WriteLine(ex.GetType());
 }
-finally
-{
-    Console.WriteLine("Zero Task");
-}*/
 
+//Zero Task 2
+ZeroTask.PointTwo();
+
+//Zero Task 3
+ZeroTask.PointThree();
