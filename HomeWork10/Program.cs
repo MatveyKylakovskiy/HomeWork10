@@ -33,5 +33,9 @@ var batch2 = new Batch(goods2, 1000);
 
 List<Product> prods = new List<Product> { goods, goods1, goods2, batch, batch1, batch2 };
 
-WorkerWithProducts.FirstTask(prods);
+//First Task
+//WorkerWithProducts.GetListOfProducts(prods);
 
+
+//WorkerWithProducts.SortedSet(prods);
+prods.Sort();

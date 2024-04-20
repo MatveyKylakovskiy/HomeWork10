@@ -1,11 +1,15 @@
 ﻿using HomeWork8.SecondTask;
+using System.Xml.Linq;
+using System;
 
 namespace HomeWork10.Second_Task
 {
     public static class WorkerWithProducts
-    {
-        public static void FirstTask(List<Product> products)
-        {
+    {   
+        //First Task
+        public static void GetListOfProducts(List<Product> products)
+        {   
+
             foreach (Product product in products)
             {
                 product.GetInfo();
@@ -29,7 +33,11 @@ namespace HomeWork10.Second_Task
             products.Clear();
         }
 
-
+        //Second task
+        public static void SortedSet(List<Product> products)
+        {
+            products.Sort();
+        }
 
     }
 }
